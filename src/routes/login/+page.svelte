@@ -10,7 +10,6 @@
 <main class="login-container">
   <div class="login-box">
     <div class="header">
-      <!-- <img src="/logo.png" alt="Logo" class="logo" /> -->
       <h1>Welcome Back</h1>
       <p class="subtitle">Please enter your details to sign in</p>
     </div>
@@ -52,8 +51,6 @@
 </main>
 
 <style>
-  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
-
   .login-container {
     min-height: 100vh;
     display: flex;
@@ -77,7 +74,6 @@
     text-align: center;
     margin-bottom: 2rem;
   }
-
 
 
   h1 {
@@ -136,19 +132,9 @@
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
   }
 
-  .options {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 0.5rem;
-  }
 
-  .remember-me {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    cursor: pointer;
-  }
+
+
 
   .forgot-link {
     color: #667eea;
